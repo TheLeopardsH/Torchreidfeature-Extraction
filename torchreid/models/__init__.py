@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 import torch
 
-
+from .osnet_ain import *
 from .osnet import *
 
 __model_factory = {
